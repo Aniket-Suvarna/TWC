@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register and login page.</title>
+    <link rel="stylesheet" href="../CSS/NGOSIGN.css">
+</head>
+
+<body  class="bg">
+    <div class="main container-fluid">
+        <div class="form">
+            <div class="button">
+                <div id="btn"></div>
+                <button class="toggle" onclick="login()">Log In</button>
+                <button class="toggle" onclick="register()">Register</button>
+            </div>
+            <div class="social">
+                <img src="../Images/fb.png" alt="Facebook">
+                <img src="../Images/insta.jpg" alt="Instagram">
+                <img src="../Images/twitter.png" alt="Twitter">
+            </div>
+            <form id='login' class="myform" method="POST" action="../PHP/Sign_in.php">
+                <input type="text" class="user" placeholder="User-Name" name="User-Name" required>
+                <input type="password" class="user" placeholder="Password" name="Password" required>
+                <input type="checkbox" class="check"><span>Remember Me</span>
+                <button class="submit">Log In</button>
+            </form>
+            <form id='register' class="myform" method="POST" action="../PHP/Sign_up.php">
+                <input type="text" class="user" placeholder="Enter a Name" name="Name" required>
+                <input type="text" class="user" placeholder="Enter a Birth Date" name="Birth_Date" required>
+                <input type="text" class="user" placeholder="Enter a User-Name" name="User-Name" required>
+                <input type="email" class="user" placeholder="Email-Id" name="Email" required>
+                <input type="text" class="user" placeholder="Phone" name="Phone" required>
+                <input type="password" class="user" placeholder="Enter a password" name="Password" required>
+                <input type="password" class="user" placeholder="Retype password" required>
+                <input type="checkbox" class="check"><span >I agree to the terms and conditions</span>
+                <button class="submit" value="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var a = document.getElementById("login");
+        var b = document.getElementById("register");
+        var c = document.getElementById("btn");
+        function login(){
+            a.style.left='40px'
+            b.style.left='440px'
+            c.style.left='0px'
+        }
+        function register(){
+            a.style.left='-400px'
+            b.style.left='50px'
+            c.style.left='110px'
+        }
+    </script>
+</body>
+</html>

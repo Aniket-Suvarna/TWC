@@ -1,0 +1,55 @@
+.linksinsta{
+    color:black;
+    padding-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+  
+}
+.linksinsta:hover{
+    background-image: linear-gradient(#5755ff,#ec1bff,#f73737,#fffb16);
+    border-radius: 8px;
+    color: white;
+    font-size: xx-large;
+    padding-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+.linksface{
+    color:black;
+}
+.linksface:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 26, 255);
+    border-radius: 20px;
+    font-size: xx-large;
+    
+}
+.linkstwit{
+    color:black;
+}
+.linkstwit:hover{
+    color: rgb(0, 217, 255);
+    font-size: xx-large;
+    
+}
+.linksshare{
+    color:black;
+}
+.linksshare:hover{
+    color: rgb(255, 123, 46);
+    font-size: xx-large;
+    
+}
+.linkswhats{
+    color:black;
+}
+.linkswhats:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 255, 14);
+    font-size: xx-large;
+    padding:2px;
+    border-radius: 10px;
+
+    
+}

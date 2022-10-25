@@ -1,0 +1,40 @@
+[
+	{
+		"CharityOrganization": "Milaap",
+		"Image":"Milaap.jpg",
+		"Visit": "https://start.milaap.org/",
+		"JoinUs": "https://start.milaap.org/clkn/https/milaap.org/fundraisers/new?utm_source=bing&utm_medium=cpa&utm_campaign=milaap_cpc&utm_term=milaap&msclkid=5e80e71d17181273d547840a6ebfa340&inline_login=true"
+
+	},
+	{
+		"CharityOrganization": "Help Age India",
+		"Image":"helpageindia.jpg",
+		"Visit": "https://www.helpageindia.org/",
+		"JoinUs": "https://www.helpageindia.org/donate/?utm_source=bing&utm_medium=search&utm_campaign=onlinedonation&utm_term=charitableorganization&msclkid=e18cc1abda7812715a8ba2bca0b33e2a"
+
+	},
+	{
+		"CharityOrganization": "Ikscon Dwarka",
+		"Image":"iskcondwarka.png",
+		"Visit": "https://iskcondwarka.org/",
+		"JoinUs": "https://www.facebook.com/iskcon.dwarka/"
+	},
+	{
+		"CharityOrganization": "Cordaid",
+		"Image":"Cordaid.jpeg",
+		"Visit": "https://www.cordaid.org/en/",
+		"JoinUs": "https://www.cordaid.org/en/?page_id=167512"
+	},
+	{
+		"CharityOrganization": "ChristianAid",
+		"Image":"christian aid.png",
+		"Visit": "https://www.christianaid.org/",
+		"JoinUs": "https://www.christianaid.org/#"
+	},
+	{
+		"CharityOrganization": "Shishu Mandir",
+		"Image":"shishumandir.jfif",
+		"Visit": "https://www.shishumandir.org/",
+		"JoinUs": "https://www.shishumandir.org/community-development"
+	}
+]

@@ -1,0 +1,30 @@
+{
+    "type": "invoice",
+    "description": "Domestic invoice for Gaurav Kumar.",
+    "partial_payment": true,
+    "customer": {
+        "name": "Aniket Kumar",
+        "contact": "9876543210",
+        "email": "aniket1463@gmail.com"
+    },
+    "line_items": [
+        {
+            "name": "Crate of sea weed",
+            "description": "Crate of sea weed.",
+            "amount": 200,
+            "currency": "INR",
+            "quantity": 1
+        }
+        
+    ],
+    "sms_notify": 1,
+    "email_notify": 1,
+    "date": 1588076279,
+    "expire_by": 1924991999,
+    "comment": "Fresh sea weed mowed this morning",
+    "terms": "No Returns; No Refunds",
+    "notes": {
+        "notes_key_1": "Tea, Earl Grey, Hot",
+        "notes_key_2": "Tea, Earl Grey… decaf."
+    }
+}
